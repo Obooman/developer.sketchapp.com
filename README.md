@@ -1,16 +1,12 @@
-# developer.sketchapp.com
+# sketch-dev.com
 
-This repository powers the development site for [Sketch](http://sketchapp.com), that lives at [developer.sketchapp.com](http://developer.sketchapp.com).
+本网站是[Sketch](http://sketchapp.com)开发的解释页面的中文版本, 托付在 [sketch-dev.com](http://sketch-dev.com)上。
 
-## Contribute!
+本项目基于 [Jekyll](http://jekyllrb.com)。
 
-We've made this repository public so you can contribute to it. If you find a typo, or an error, or want to improve the content, feel free to send us a pull request. Also, if there's anything you'd like to see covered or documented, file an issue and we'll do it for you.
+## 安装
 
-We use [Jekyll](http://jekyllrb.com) as our content backend, so make sure to read their docs if you need help understanding how the system works.
-
-## Setup
-
-If you want to get the site working locally, you'll need to have [node](https://nodejs.org/en/) and [bundler](http://bundler.io) installed. Once you have them, run this:
+在本地搭建此项目, 你需要安装 [node](https://nodejs.org/en/) 和 [bundler](http://bundler.io). Once you have them, run this:
 
 ```
 npm install --global gulp
@@ -18,12 +14,12 @@ bundle install --path _vendor
 npm install
 ```
 
-and then run
+然后运行
 
 ```
 gulp
 ```
 
-to start the server and open a browser automatically.
+来启动服务器并打开页面.
 
-Note: you may find issues with nokogiri when running `bundle install`. If that's the case, check the troubleshooting tips on [Nokogiri's page](http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x)
+Note: 你在运行`bundle install`的说可能会碰到nokogiri的bug，解决方案请参照 [Nokogiri's page](http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x)
